@@ -7,5 +7,5 @@ public class Main {
             return year % 100 != 0;
         }
         else return false;
-    }// some changes
+    }// some changes  skdjfskjskfjf
 }
