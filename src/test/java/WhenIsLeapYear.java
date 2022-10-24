@@ -31,11 +31,4 @@ public class WhenIsLeapYear {
 
 
     }
-    @Test()
-    public void failingtest() {
-
-        Assertions.assertFalse(true);
-
-
-    }
 }
