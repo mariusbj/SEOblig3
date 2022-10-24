@@ -6,28 +6,28 @@ public class WhenIsLeapYear {
     @Test()
     public void YearsDivisibleBy4ButNotBy100AreLeapYears() {
 
-        Assertions.assertEquals(true, Main.isLeapYear(4));
-        Assertions.assertEquals(false, Main.isLeapYear(200));
+        Assertions.assertTrue(Main.isLeapYear(4));
+        Assertions.assertFalse(Main.isLeapYear(200));
 
     }
     @Test()
     public void YearsDivisibleBy400AreLeapYears(){
 
-        Assertions.assertEquals(true, Main.isLeapYear(400));
+        Assertions.assertTrue(Main.isLeapYear(400));
 
 
     }
     @Test()
     public void YearsIndivisibleBy4AreNotLeapYears() {
 
-        Assertions.assertEquals(false, Main.isLeapYear(5));
+        Assertions.assertFalse(Main.isLeapYear(5));
 
 
     }
     @Test()
     public void YearsDivisibleBy100ButNot400AreNotLeapYears() {
 
-        Assertions.assertEquals(false, Main.isLeapYear(100));
+        Assertions.assertFalse(Main.isLeapYear(100));
 
 
     }
