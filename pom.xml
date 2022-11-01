@@ -20,7 +20,7 @@
                 <version>3.0.0-M7</version>
                 <configuration>
                     <includes>
-                        <include>WhenIsLeapYear.Java</include>
+                        <include>/**/*WhenIsLeapYear.Java</include>
                     </includes>
                 </configuration>
                 <dependencies>
